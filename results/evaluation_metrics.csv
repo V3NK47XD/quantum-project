@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1-Score,Training Time (s),Inference Latency (ms/sample),True Positives (Spoof),False Positives (Spoof),True Negatives (Human),False Negatives (Human)
+PyTorch MLP (CPU),0.875,1.0,0.75,0.8571,0.71,0.12,15,0,20,5
+PyTorch MLP (GPU: NVIDIA GeForce RTX 2050),0.825,0.8824,0.75,0.8108,1.28,0.33,15,2,18,5
+Qiskit VQC (Aer Simulator),0.475,0.48,0.6,0.5333,33.4,7.89,12,13,7,8

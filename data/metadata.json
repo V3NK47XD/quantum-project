@@ -1,0 +1,1602 @@
+[
+  {
+    "utterance_id": "LA_E_2834763",
+    "speaker_id": "LA_0039",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2834763.flac",
+    "filename": "LA_E_2834763.flac"
+  },
+  {
+    "utterance_id": "LA_E_8877452",
+    "speaker_id": "LA_0014",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8877452.flac",
+    "filename": "LA_E_8877452.flac"
+  },
+  {
+    "utterance_id": "LA_E_6828287",
+    "speaker_id": "LA_0040",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6828287.flac",
+    "filename": "LA_E_6828287.flac"
+  },
+  {
+    "utterance_id": "LA_E_6977360",
+    "speaker_id": "LA_0022",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6977360.flac",
+    "filename": "LA_E_6977360.flac"
+  },
+  {
+    "utterance_id": "LA_E_5932896",
+    "speaker_id": "LA_0031",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5932896.flac",
+    "filename": "LA_E_5932896.flac"
+  },
+  {
+    "utterance_id": "LA_E_5849185",
+    "speaker_id": "LA_0030",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5849185.flac",
+    "filename": "LA_E_5849185.flac"
+  },
+  {
+    "utterance_id": "LA_E_6163791",
+    "speaker_id": "LA_0001",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6163791.flac",
+    "filename": "LA_E_6163791.flac"
+  },
+  {
+    "utterance_id": "LA_E_4581379",
+    "speaker_id": "LA_0033",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4581379.flac",
+    "filename": "LA_E_4581379.flac"
+  },
+  {
+    "utterance_id": "LA_E_8814547",
+    "speaker_id": "LA_0002",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8814547.flac",
+    "filename": "LA_E_8814547.flac"
+  },
+  {
+    "utterance_id": "LA_E_9157999",
+    "speaker_id": "LA_0048",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9157999.flac",
+    "filename": "LA_E_9157999.flac"
+  },
+  {
+    "utterance_id": "LA_E_1611480",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1611480.flac",
+    "filename": "LA_E_1611480.flac"
+  },
+  {
+    "utterance_id": "LA_E_6841754",
+    "speaker_id": "LA_0018",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6841754.flac",
+    "filename": "LA_E_6841754.flac"
+  },
+  {
+    "utterance_id": "LA_E_1781840",
+    "speaker_id": "LA_0023",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1781840.flac",
+    "filename": "LA_E_1781840.flac"
+  },
+  {
+    "utterance_id": "LA_E_8872199",
+    "speaker_id": "LA_0002",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8872199.flac",
+    "filename": "LA_E_8872199.flac"
+  },
+  {
+    "utterance_id": "LA_E_1837629",
+    "speaker_id": "LA_0042",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1837629.flac",
+    "filename": "LA_E_1837629.flac"
+  },
+  {
+    "utterance_id": "LA_E_6314733",
+    "speaker_id": "LA_0039",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6314733.flac",
+    "filename": "LA_E_6314733.flac"
+  },
+  {
+    "utterance_id": "LA_E_8469141",
+    "speaker_id": "LA_0042",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8469141.flac",
+    "filename": "LA_E_8469141.flac"
+  },
+  {
+    "utterance_id": "LA_E_3379393",
+    "speaker_id": "LA_0037",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3379393.flac",
+    "filename": "LA_E_3379393.flac"
+  },
+  {
+    "utterance_id": "LA_E_7783830",
+    "speaker_id": "LA_0038",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7783830.flac",
+    "filename": "LA_E_7783830.flac"
+  },
+  {
+    "utterance_id": "LA_E_8339197",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8339197.flac",
+    "filename": "LA_E_8339197.flac"
+  },
+  {
+    "utterance_id": "LA_E_9472752",
+    "speaker_id": "LA_0043",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9472752.flac",
+    "filename": "LA_E_9472752.flac"
+  },
+  {
+    "utterance_id": "LA_E_1425990",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1425990.flac",
+    "filename": "LA_E_1425990.flac"
+  },
+  {
+    "utterance_id": "LA_E_9088738",
+    "speaker_id": "LA_0022",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9088738.flac",
+    "filename": "LA_E_9088738.flac"
+  },
+  {
+    "utterance_id": "LA_E_2520601",
+    "speaker_id": "LA_0047",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2520601.flac",
+    "filename": "LA_E_2520601.flac"
+  },
+  {
+    "utterance_id": "LA_E_2355000",
+    "speaker_id": "LA_0031",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2355000.flac",
+    "filename": "LA_E_2355000.flac"
+  },
+  {
+    "utterance_id": "LA_E_7535126",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7535126.flac",
+    "filename": "LA_E_7535126.flac"
+  },
+  {
+    "utterance_id": "LA_E_2394352",
+    "speaker_id": "LA_0018",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2394352.flac",
+    "filename": "LA_E_2394352.flac"
+  },
+  {
+    "utterance_id": "LA_E_5884357",
+    "speaker_id": "LA_0002",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5884357.flac",
+    "filename": "LA_E_5884357.flac"
+  },
+  {
+    "utterance_id": "LA_E_8787897",
+    "speaker_id": "LA_0009",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8787897.flac",
+    "filename": "LA_E_8787897.flac"
+  },
+  {
+    "utterance_id": "LA_E_3125426",
+    "speaker_id": "LA_0014",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3125426.flac",
+    "filename": "LA_E_3125426.flac"
+  },
+  {
+    "utterance_id": "LA_E_6320499",
+    "speaker_id": "LA_0025",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6320499.flac",
+    "filename": "LA_E_6320499.flac"
+  },
+  {
+    "utterance_id": "LA_E_8617121",
+    "speaker_id": "LA_0030",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8617121.flac",
+    "filename": "LA_E_8617121.flac"
+  },
+  {
+    "utterance_id": "LA_E_2608310",
+    "speaker_id": "LA_0035",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2608310.flac",
+    "filename": "LA_E_2608310.flac"
+  },
+  {
+    "utterance_id": "LA_E_7203940",
+    "speaker_id": "LA_0015",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7203940.flac",
+    "filename": "LA_E_7203940.flac"
+  },
+  {
+    "utterance_id": "LA_E_8868279",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8868279.flac",
+    "filename": "LA_E_8868279.flac"
+  },
+  {
+    "utterance_id": "LA_E_7462445",
+    "speaker_id": "LA_0017",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7462445.flac",
+    "filename": "LA_E_7462445.flac"
+  },
+  {
+    "utterance_id": "LA_E_8844552",
+    "speaker_id": "LA_0017",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8844552.flac",
+    "filename": "LA_E_8844552.flac"
+  },
+  {
+    "utterance_id": "LA_E_9120891",
+    "speaker_id": "LA_0029",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9120891.flac",
+    "filename": "LA_E_9120891.flac"
+  },
+  {
+    "utterance_id": "LA_E_2634822",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2634822.flac",
+    "filename": "LA_E_2634822.flac"
+  },
+  {
+    "utterance_id": "LA_E_3757378",
+    "speaker_id": "LA_0028",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3757378.flac",
+    "filename": "LA_E_3757378.flac"
+  },
+  {
+    "utterance_id": "LA_E_4550461",
+    "speaker_id": "LA_0044",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4550461.flac",
+    "filename": "LA_E_4550461.flac"
+  },
+  {
+    "utterance_id": "LA_E_4920751",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4920751.flac",
+    "filename": "LA_E_4920751.flac"
+  },
+  {
+    "utterance_id": "LA_E_9817776",
+    "speaker_id": "LA_0029",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9817776.flac",
+    "filename": "LA_E_9817776.flac"
+  },
+  {
+    "utterance_id": "LA_E_4557471",
+    "speaker_id": "LA_0011",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4557471.flac",
+    "filename": "LA_E_4557471.flac"
+  },
+  {
+    "utterance_id": "LA_E_1070406",
+    "speaker_id": "LA_0020",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1070406.flac",
+    "filename": "LA_E_1070406.flac"
+  },
+  {
+    "utterance_id": "LA_E_3003752",
+    "speaker_id": "LA_0037",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3003752.flac",
+    "filename": "LA_E_3003752.flac"
+  },
+  {
+    "utterance_id": "LA_E_8806575",
+    "speaker_id": "LA_0026",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8806575.flac",
+    "filename": "LA_E_8806575.flac"
+  },
+  {
+    "utterance_id": "LA_E_2417530",
+    "speaker_id": "LA_0044",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2417530.flac",
+    "filename": "LA_E_2417530.flac"
+  },
+  {
+    "utterance_id": "LA_E_5323454",
+    "speaker_id": "LA_0031",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5323454.flac",
+    "filename": "LA_E_5323454.flac"
+  },
+  {
+    "utterance_id": "LA_E_2947508",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2947508.flac",
+    "filename": "LA_E_2947508.flac"
+  },
+  {
+    "utterance_id": "LA_E_8469160",
+    "speaker_id": "LA_0016",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8469160.flac",
+    "filename": "LA_E_8469160.flac"
+  },
+  {
+    "utterance_id": "LA_E_1027220",
+    "speaker_id": "LA_0057",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1027220.flac",
+    "filename": "LA_E_1027220.flac"
+  },
+  {
+    "utterance_id": "LA_E_9328266",
+    "speaker_id": "LA_0039",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9328266.flac",
+    "filename": "LA_E_9328266.flac"
+  },
+  {
+    "utterance_id": "LA_E_3820322",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3820322.flac",
+    "filename": "LA_E_3820322.flac"
+  },
+  {
+    "utterance_id": "LA_E_4751686",
+    "speaker_id": "LA_0031",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4751686.flac",
+    "filename": "LA_E_4751686.flac"
+  },
+  {
+    "utterance_id": "LA_E_7655544",
+    "speaker_id": "LA_0012",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7655544.flac",
+    "filename": "LA_E_7655544.flac"
+  },
+  {
+    "utterance_id": "LA_E_8925219",
+    "speaker_id": "LA_0004",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8925219.flac",
+    "filename": "LA_E_8925219.flac"
+  },
+  {
+    "utterance_id": "LA_E_8110643",
+    "speaker_id": "LA_0031",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8110643.flac",
+    "filename": "LA_E_8110643.flac"
+  },
+  {
+    "utterance_id": "LA_E_2775552",
+    "speaker_id": "LA_0006",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2775552.flac",
+    "filename": "LA_E_2775552.flac"
+  },
+  {
+    "utterance_id": "LA_E_9276097",
+    "speaker_id": "LA_0037",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9276097.flac",
+    "filename": "LA_E_9276097.flac"
+  },
+  {
+    "utterance_id": "LA_E_5246322",
+    "speaker_id": "LA_0039",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5246322.flac",
+    "filename": "LA_E_5246322.flac"
+  },
+  {
+    "utterance_id": "LA_E_6092883",
+    "speaker_id": "LA_0021",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6092883.flac",
+    "filename": "LA_E_6092883.flac"
+  },
+  {
+    "utterance_id": "LA_E_7355163",
+    "speaker_id": "LA_0007",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7355163.flac",
+    "filename": "LA_E_7355163.flac"
+  },
+  {
+    "utterance_id": "LA_E_9804952",
+    "speaker_id": "LA_0033",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9804952.flac",
+    "filename": "LA_E_9804952.flac"
+  },
+  {
+    "utterance_id": "LA_E_2985346",
+    "speaker_id": "LA_0016",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2985346.flac",
+    "filename": "LA_E_2985346.flac"
+  },
+  {
+    "utterance_id": "LA_E_8285179",
+    "speaker_id": "LA_0031",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8285179.flac",
+    "filename": "LA_E_8285179.flac"
+  },
+  {
+    "utterance_id": "LA_E_5118048",
+    "speaker_id": "LA_0011",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5118048.flac",
+    "filename": "LA_E_5118048.flac"
+  },
+  {
+    "utterance_id": "LA_E_4430413",
+    "speaker_id": "LA_0037",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4430413.flac",
+    "filename": "LA_E_4430413.flac"
+  },
+  {
+    "utterance_id": "LA_E_3558965",
+    "speaker_id": "LA_0006",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3558965.flac",
+    "filename": "LA_E_3558965.flac"
+  },
+  {
+    "utterance_id": "LA_E_4732931",
+    "speaker_id": "LA_0006",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4732931.flac",
+    "filename": "LA_E_4732931.flac"
+  },
+  {
+    "utterance_id": "LA_E_4757272",
+    "speaker_id": "LA_0008",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4757272.flac",
+    "filename": "LA_E_4757272.flac"
+  },
+  {
+    "utterance_id": "LA_E_8992946",
+    "speaker_id": "LA_0001",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8992946.flac",
+    "filename": "LA_E_8992946.flac"
+  },
+  {
+    "utterance_id": "LA_E_8155315",
+    "speaker_id": "LA_0010",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8155315.flac",
+    "filename": "LA_E_8155315.flac"
+  },
+  {
+    "utterance_id": "LA_E_2143322",
+    "speaker_id": "LA_0038",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2143322.flac",
+    "filename": "LA_E_2143322.flac"
+  },
+  {
+    "utterance_id": "LA_E_9382115",
+    "speaker_id": "LA_0037",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9382115.flac",
+    "filename": "LA_E_9382115.flac"
+  },
+  {
+    "utterance_id": "LA_E_4641783",
+    "speaker_id": "LA_0012",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4641783.flac",
+    "filename": "LA_E_4641783.flac"
+  },
+  {
+    "utterance_id": "LA_E_5210371",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5210371.flac",
+    "filename": "LA_E_5210371.flac"
+  },
+  {
+    "utterance_id": "LA_E_1746654",
+    "speaker_id": "LA_0047",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1746654.flac",
+    "filename": "LA_E_1746654.flac"
+  },
+  {
+    "utterance_id": "LA_E_7824929",
+    "speaker_id": "LA_0033",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7824929.flac",
+    "filename": "LA_E_7824929.flac"
+  },
+  {
+    "utterance_id": "LA_E_8816717",
+    "speaker_id": "LA_0001",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8816717.flac",
+    "filename": "LA_E_8816717.flac"
+  },
+  {
+    "utterance_id": "LA_E_3746504",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3746504.flac",
+    "filename": "LA_E_3746504.flac"
+  },
+  {
+    "utterance_id": "LA_E_8463157",
+    "speaker_id": "LA_0030",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8463157.flac",
+    "filename": "LA_E_8463157.flac"
+  },
+  {
+    "utterance_id": "LA_E_7642353",
+    "speaker_id": "LA_0025",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7642353.flac",
+    "filename": "LA_E_7642353.flac"
+  },
+  {
+    "utterance_id": "LA_E_5157926",
+    "speaker_id": "LA_0005",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5157926.flac",
+    "filename": "LA_E_5157926.flac"
+  },
+  {
+    "utterance_id": "LA_E_8979583",
+    "speaker_id": "LA_0024",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8979583.flac",
+    "filename": "LA_E_8979583.flac"
+  },
+  {
+    "utterance_id": "LA_E_2665242",
+    "speaker_id": "LA_0011",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2665242.flac",
+    "filename": "LA_E_2665242.flac"
+  },
+  {
+    "utterance_id": "LA_E_6154503",
+    "speaker_id": "LA_0041",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6154503.flac",
+    "filename": "LA_E_6154503.flac"
+  },
+  {
+    "utterance_id": "LA_E_1395552",
+    "speaker_id": "LA_0061",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1395552.flac",
+    "filename": "LA_E_1395552.flac"
+  },
+  {
+    "utterance_id": "LA_E_9500557",
+    "speaker_id": "LA_0006",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9500557.flac",
+    "filename": "LA_E_9500557.flac"
+  },
+  {
+    "utterance_id": "LA_E_5194826",
+    "speaker_id": "LA_0021",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5194826.flac",
+    "filename": "LA_E_5194826.flac"
+  },
+  {
+    "utterance_id": "LA_E_1424685",
+    "speaker_id": "LA_0033",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1424685.flac",
+    "filename": "LA_E_1424685.flac"
+  },
+  {
+    "utterance_id": "LA_E_6624193",
+    "speaker_id": "LA_0017",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6624193.flac",
+    "filename": "LA_E_6624193.flac"
+  },
+  {
+    "utterance_id": "LA_E_5871315",
+    "speaker_id": "LA_0010",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5871315.flac",
+    "filename": "LA_E_5871315.flac"
+  },
+  {
+    "utterance_id": "LA_E_3378367",
+    "speaker_id": "LA_0046",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3378367.flac",
+    "filename": "LA_E_3378367.flac"
+  },
+  {
+    "utterance_id": "LA_E_9853957",
+    "speaker_id": "LA_0014",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9853957.flac",
+    "filename": "LA_E_9853957.flac"
+  },
+  {
+    "utterance_id": "LA_E_4988348",
+    "speaker_id": "LA_0037",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4988348.flac",
+    "filename": "LA_E_4988348.flac"
+  },
+  {
+    "utterance_id": "LA_E_2161075",
+    "speaker_id": "LA_0046",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2161075.flac",
+    "filename": "LA_E_2161075.flac"
+  },
+  {
+    "utterance_id": "LA_E_3750625",
+    "speaker_id": "LA_0020",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_3750625.flac",
+    "filename": "LA_E_3750625.flac"
+  },
+  {
+    "utterance_id": "LA_E_4850719",
+    "speaker_id": "LA_0025",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4850719.flac",
+    "filename": "LA_E_4850719.flac"
+  },
+  {
+    "utterance_id": "LA_E_8562955",
+    "speaker_id": "LA_0018",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8562955.flac",
+    "filename": "LA_E_8562955.flac"
+  },
+  {
+    "utterance_id": "LA_E_9989698",
+    "speaker_id": "LA_0015",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9989698.flac",
+    "filename": "LA_E_9989698.flac"
+  },
+  {
+    "utterance_id": "LA_E_5291521",
+    "speaker_id": "LA_0009",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_5291521.flac",
+    "filename": "LA_E_5291521.flac"
+  },
+  {
+    "utterance_id": "LA_E_6816952",
+    "speaker_id": "LA_0032",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_6816952.flac",
+    "filename": "LA_E_6816952.flac"
+  },
+  {
+    "utterance_id": "LA_E_4282641",
+    "speaker_id": "LA_0013",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4282641.flac",
+    "filename": "LA_E_4282641.flac"
+  },
+  {
+    "utterance_id": "LA_E_9944556",
+    "speaker_id": "LA_0002",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9944556.flac",
+    "filename": "LA_E_9944556.flac"
+  },
+  {
+    "utterance_id": "LA_E_8767294",
+    "speaker_id": "LA_0022",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8767294.flac",
+    "filename": "LA_E_8767294.flac"
+  },
+  {
+    "utterance_id": "LA_E_8534064",
+    "speaker_id": "LA_0035",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8534064.flac",
+    "filename": "LA_E_8534064.flac"
+  },
+  {
+    "utterance_id": "LA_E_1144382",
+    "speaker_id": "LA_0014",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_1144382.flac",
+    "filename": "LA_E_1144382.flac"
+  },
+  {
+    "utterance_id": "LA_E_8697552",
+    "speaker_id": "LA_0042",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_8697552.flac",
+    "filename": "LA_E_8697552.flac"
+  },
+  {
+    "utterance_id": "LA_E_4770782",
+    "speaker_id": "LA_0037",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_4770782.flac",
+    "filename": "LA_E_4770782.flac"
+  },
+  {
+    "utterance_id": "LA_E_7779557",
+    "speaker_id": "LA_0006",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_7779557.flac",
+    "filename": "LA_E_7779557.flac"
+  },
+  {
+    "utterance_id": "LA_E_2268693",
+    "speaker_id": "LA_0007",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2268693.flac",
+    "filename": "LA_E_2268693.flac"
+  },
+  {
+    "utterance_id": "LA_E_9140267",
+    "speaker_id": "LA_0030",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_9140267.flac",
+    "filename": "LA_E_9140267.flac"
+  },
+  {
+    "utterance_id": "LA_E_9528968",
+    "speaker_id": "LA_0027",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9528968.flac",
+    "filename": "LA_E_9528968.flac"
+  },
+  {
+    "utterance_id": "LA_E_2323050",
+    "speaker_id": "LA_0022",
+    "label": 1,
+    "label_name": "AI-Generated (Spoof)",
+    "file_path": "data\\audio\\spoof\\LA_E_2323050.flac",
+    "filename": "LA_E_2323050.flac"
+  },
+  {
+    "utterance_id": "LA_E_5783993",
+    "speaker_id": "LA_0031",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5783993.flac",
+    "filename": "LA_E_5783993.flac"
+  },
+  {
+    "utterance_id": "LA_E_1235824",
+    "speaker_id": "LA_0068",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1235824.flac",
+    "filename": "LA_E_1235824.flac"
+  },
+  {
+    "utterance_id": "LA_E_8739004",
+    "speaker_id": "LA_0064",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8739004.flac",
+    "filename": "LA_E_8739004.flac"
+  },
+  {
+    "utterance_id": "LA_E_4716734",
+    "speaker_id": "LA_0018",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4716734.flac",
+    "filename": "LA_E_4716734.flac"
+  },
+  {
+    "utterance_id": "LA_E_3379472",
+    "speaker_id": "LA_0019",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3379472.flac",
+    "filename": "LA_E_3379472.flac"
+  },
+  {
+    "utterance_id": "LA_E_9617894",
+    "speaker_id": "LA_0014",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9617894.flac",
+    "filename": "LA_E_9617894.flac"
+  },
+  {
+    "utterance_id": "LA_E_5313973",
+    "speaker_id": "LA_0060",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5313973.flac",
+    "filename": "LA_E_5313973.flac"
+  },
+  {
+    "utterance_id": "LA_E_1047198",
+    "speaker_id": "LA_0027",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1047198.flac",
+    "filename": "LA_E_1047198.flac"
+  },
+  {
+    "utterance_id": "LA_E_5432558",
+    "speaker_id": "LA_0058",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5432558.flac",
+    "filename": "LA_E_5432558.flac"
+  },
+  {
+    "utterance_id": "LA_E_7205247",
+    "speaker_id": "LA_0009",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7205247.flac",
+    "filename": "LA_E_7205247.flac"
+  },
+  {
+    "utterance_id": "LA_E_4402351",
+    "speaker_id": "LA_0008",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4402351.flac",
+    "filename": "LA_E_4402351.flac"
+  },
+  {
+    "utterance_id": "LA_E_1911910",
+    "speaker_id": "LA_0034",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1911910.flac",
+    "filename": "LA_E_1911910.flac"
+  },
+  {
+    "utterance_id": "LA_E_9578227",
+    "speaker_id": "LA_0058",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9578227.flac",
+    "filename": "LA_E_9578227.flac"
+  },
+  {
+    "utterance_id": "LA_E_3593479",
+    "speaker_id": "LA_0007",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3593479.flac",
+    "filename": "LA_E_3593479.flac"
+  },
+  {
+    "utterance_id": "LA_E_4620575",
+    "speaker_id": "LA_0007",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4620575.flac",
+    "filename": "LA_E_4620575.flac"
+  },
+  {
+    "utterance_id": "LA_E_1311985",
+    "speaker_id": "LA_0034",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1311985.flac",
+    "filename": "LA_E_1311985.flac"
+  },
+  {
+    "utterance_id": "LA_E_1514361",
+    "speaker_id": "LA_0058",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1514361.flac",
+    "filename": "LA_E_1514361.flac"
+  },
+  {
+    "utterance_id": "LA_E_9766259",
+    "speaker_id": "LA_0012",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9766259.flac",
+    "filename": "LA_E_9766259.flac"
+  },
+  {
+    "utterance_id": "LA_E_9695181",
+    "speaker_id": "LA_0045",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9695181.flac",
+    "filename": "LA_E_9695181.flac"
+  },
+  {
+    "utterance_id": "LA_E_7069231",
+    "speaker_id": "LA_0044",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7069231.flac",
+    "filename": "LA_E_7069231.flac"
+  },
+  {
+    "utterance_id": "LA_E_2607678",
+    "speaker_id": "LA_0010",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2607678.flac",
+    "filename": "LA_E_2607678.flac"
+  },
+  {
+    "utterance_id": "LA_E_8713676",
+    "speaker_id": "LA_0027",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8713676.flac",
+    "filename": "LA_E_8713676.flac"
+  },
+  {
+    "utterance_id": "LA_E_3698865",
+    "speaker_id": "LA_0064",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3698865.flac",
+    "filename": "LA_E_3698865.flac"
+  },
+  {
+    "utterance_id": "LA_E_8189776",
+    "speaker_id": "LA_0009",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8189776.flac",
+    "filename": "LA_E_8189776.flac"
+  },
+  {
+    "utterance_id": "LA_E_5533127",
+    "speaker_id": "LA_0008",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5533127.flac",
+    "filename": "LA_E_5533127.flac"
+  },
+  {
+    "utterance_id": "LA_E_7769271",
+    "speaker_id": "LA_0064",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7769271.flac",
+    "filename": "LA_E_7769271.flac"
+  },
+  {
+    "utterance_id": "LA_E_3924689",
+    "speaker_id": "LA_0051",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3924689.flac",
+    "filename": "LA_E_3924689.flac"
+  },
+  {
+    "utterance_id": "LA_E_1116303",
+    "speaker_id": "LA_0035",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1116303.flac",
+    "filename": "LA_E_1116303.flac"
+  },
+  {
+    "utterance_id": "LA_E_7905661",
+    "speaker_id": "LA_0046",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7905661.flac",
+    "filename": "LA_E_7905661.flac"
+  },
+  {
+    "utterance_id": "LA_E_2050154",
+    "speaker_id": "LA_0001",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2050154.flac",
+    "filename": "LA_E_2050154.flac"
+  },
+  {
+    "utterance_id": "LA_E_1648428",
+    "speaker_id": "LA_0049",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1648428.flac",
+    "filename": "LA_E_1648428.flac"
+  },
+  {
+    "utterance_id": "LA_E_2291153",
+    "speaker_id": "LA_0059",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2291153.flac",
+    "filename": "LA_E_2291153.flac"
+  },
+  {
+    "utterance_id": "LA_E_2919347",
+    "speaker_id": "LA_0019",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2919347.flac",
+    "filename": "LA_E_2919347.flac"
+  },
+  {
+    "utterance_id": "LA_E_4494506",
+    "speaker_id": "LA_0029",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4494506.flac",
+    "filename": "LA_E_4494506.flac"
+  },
+  {
+    "utterance_id": "LA_E_6964855",
+    "speaker_id": "LA_0047",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6964855.flac",
+    "filename": "LA_E_6964855.flac"
+  },
+  {
+    "utterance_id": "LA_E_1275973",
+    "speaker_id": "LA_0005",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1275973.flac",
+    "filename": "LA_E_1275973.flac"
+  },
+  {
+    "utterance_id": "LA_E_4256659",
+    "speaker_id": "LA_0049",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4256659.flac",
+    "filename": "LA_E_4256659.flac"
+  },
+  {
+    "utterance_id": "LA_E_3034548",
+    "speaker_id": "LA_0003",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3034548.flac",
+    "filename": "LA_E_3034548.flac"
+  },
+  {
+    "utterance_id": "LA_E_3783078",
+    "speaker_id": "LA_0014",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3783078.flac",
+    "filename": "LA_E_3783078.flac"
+  },
+  {
+    "utterance_id": "LA_E_9518312",
+    "speaker_id": "LA_0037",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9518312.flac",
+    "filename": "LA_E_9518312.flac"
+  },
+  {
+    "utterance_id": "LA_E_1145962",
+    "speaker_id": "LA_0020",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1145962.flac",
+    "filename": "LA_E_1145962.flac"
+  },
+  {
+    "utterance_id": "LA_E_5739678",
+    "speaker_id": "LA_0007",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5739678.flac",
+    "filename": "LA_E_5739678.flac"
+  },
+  {
+    "utterance_id": "LA_E_2553827",
+    "speaker_id": "LA_0066",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2553827.flac",
+    "filename": "LA_E_2553827.flac"
+  },
+  {
+    "utterance_id": "LA_E_1266270",
+    "speaker_id": "LA_0025",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1266270.flac",
+    "filename": "LA_E_1266270.flac"
+  },
+  {
+    "utterance_id": "LA_E_7037148",
+    "speaker_id": "LA_0059",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7037148.flac",
+    "filename": "LA_E_7037148.flac"
+  },
+  {
+    "utterance_id": "LA_E_8249275",
+    "speaker_id": "LA_0016",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8249275.flac",
+    "filename": "LA_E_8249275.flac"
+  },
+  {
+    "utterance_id": "LA_E_9859405",
+    "speaker_id": "LA_0045",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9859405.flac",
+    "filename": "LA_E_9859405.flac"
+  },
+  {
+    "utterance_id": "LA_E_4704632",
+    "speaker_id": "LA_0002",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4704632.flac",
+    "filename": "LA_E_4704632.flac"
+  },
+  {
+    "utterance_id": "LA_E_8403814",
+    "speaker_id": "LA_0016",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8403814.flac",
+    "filename": "LA_E_8403814.flac"
+  },
+  {
+    "utterance_id": "LA_E_3289994",
+    "speaker_id": "LA_0029",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3289994.flac",
+    "filename": "LA_E_3289994.flac"
+  },
+  {
+    "utterance_id": "LA_E_5753260",
+    "speaker_id": "LA_0056",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5753260.flac",
+    "filename": "LA_E_5753260.flac"
+  },
+  {
+    "utterance_id": "LA_E_4148077",
+    "speaker_id": "LA_0022",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4148077.flac",
+    "filename": "LA_E_4148077.flac"
+  },
+  {
+    "utterance_id": "LA_E_5694987",
+    "speaker_id": "LA_0020",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5694987.flac",
+    "filename": "LA_E_5694987.flac"
+  },
+  {
+    "utterance_id": "LA_E_9632320",
+    "speaker_id": "LA_0020",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9632320.flac",
+    "filename": "LA_E_9632320.flac"
+  },
+  {
+    "utterance_id": "LA_E_8859944",
+    "speaker_id": "LA_0035",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8859944.flac",
+    "filename": "LA_E_8859944.flac"
+  },
+  {
+    "utterance_id": "LA_E_7255033",
+    "speaker_id": "LA_0022",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7255033.flac",
+    "filename": "LA_E_7255033.flac"
+  },
+  {
+    "utterance_id": "LA_E_9195169",
+    "speaker_id": "LA_0055",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9195169.flac",
+    "filename": "LA_E_9195169.flac"
+  },
+  {
+    "utterance_id": "LA_E_7720483",
+    "speaker_id": "LA_0019",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7720483.flac",
+    "filename": "LA_E_7720483.flac"
+  },
+  {
+    "utterance_id": "LA_E_6901928",
+    "speaker_id": "LA_0063",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6901928.flac",
+    "filename": "LA_E_6901928.flac"
+  },
+  {
+    "utterance_id": "LA_E_9897022",
+    "speaker_id": "LA_0018",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9897022.flac",
+    "filename": "LA_E_9897022.flac"
+  },
+  {
+    "utterance_id": "LA_E_2687712",
+    "speaker_id": "LA_0031",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2687712.flac",
+    "filename": "LA_E_2687712.flac"
+  },
+  {
+    "utterance_id": "LA_E_8444421",
+    "speaker_id": "LA_0020",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8444421.flac",
+    "filename": "LA_E_8444421.flac"
+  },
+  {
+    "utterance_id": "LA_E_1443485",
+    "speaker_id": "LA_0042",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1443485.flac",
+    "filename": "LA_E_1443485.flac"
+  },
+  {
+    "utterance_id": "LA_E_9304484",
+    "speaker_id": "LA_0038",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9304484.flac",
+    "filename": "LA_E_9304484.flac"
+  },
+  {
+    "utterance_id": "LA_E_5980440",
+    "speaker_id": "LA_0066",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5980440.flac",
+    "filename": "LA_E_5980440.flac"
+  },
+  {
+    "utterance_id": "LA_E_9419854",
+    "speaker_id": "LA_0009",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9419854.flac",
+    "filename": "LA_E_9419854.flac"
+  },
+  {
+    "utterance_id": "LA_E_7936776",
+    "speaker_id": "LA_0042",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_7936776.flac",
+    "filename": "LA_E_7936776.flac"
+  },
+  {
+    "utterance_id": "LA_E_9476709",
+    "speaker_id": "LA_0052",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_9476709.flac",
+    "filename": "LA_E_9476709.flac"
+  },
+  {
+    "utterance_id": "LA_E_3629647",
+    "speaker_id": "LA_0009",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3629647.flac",
+    "filename": "LA_E_3629647.flac"
+  },
+  {
+    "utterance_id": "LA_E_4677898",
+    "speaker_id": "LA_0058",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4677898.flac",
+    "filename": "LA_E_4677898.flac"
+  },
+  {
+    "utterance_id": "LA_E_1750680",
+    "speaker_id": "LA_0046",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1750680.flac",
+    "filename": "LA_E_1750680.flac"
+  },
+  {
+    "utterance_id": "LA_E_8399265",
+    "speaker_id": "LA_0037",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8399265.flac",
+    "filename": "LA_E_8399265.flac"
+  },
+  {
+    "utterance_id": "LA_E_1831235",
+    "speaker_id": "LA_0042",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_1831235.flac",
+    "filename": "LA_E_1831235.flac"
+  },
+  {
+    "utterance_id": "LA_E_8848495",
+    "speaker_id": "LA_0056",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8848495.flac",
+    "filename": "LA_E_8848495.flac"
+  },
+  {
+    "utterance_id": "LA_E_4022756",
+    "speaker_id": "LA_0068",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4022756.flac",
+    "filename": "LA_E_4022756.flac"
+  },
+  {
+    "utterance_id": "LA_E_3358578",
+    "speaker_id": "LA_0013",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3358578.flac",
+    "filename": "LA_E_3358578.flac"
+  },
+  {
+    "utterance_id": "LA_E_3555959",
+    "speaker_id": "LA_0045",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3555959.flac",
+    "filename": "LA_E_3555959.flac"
+  },
+  {
+    "utterance_id": "LA_E_4787047",
+    "speaker_id": "LA_0017",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4787047.flac",
+    "filename": "LA_E_4787047.flac"
+  },
+  {
+    "utterance_id": "LA_E_8177958",
+    "speaker_id": "LA_0022",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_8177958.flac",
+    "filename": "LA_E_8177958.flac"
+  },
+  {
+    "utterance_id": "LA_E_6630192",
+    "speaker_id": "LA_0043",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6630192.flac",
+    "filename": "LA_E_6630192.flac"
+  },
+  {
+    "utterance_id": "LA_E_2929931",
+    "speaker_id": "LA_0012",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_2929931.flac",
+    "filename": "LA_E_2929931.flac"
+  },
+  {
+    "utterance_id": "LA_E_5400327",
+    "speaker_id": "LA_0042",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_5400327.flac",
+    "filename": "LA_E_5400327.flac"
+  },
+  {
+    "utterance_id": "LA_E_6543651",
+    "speaker_id": "LA_0060",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_6543651.flac",
+    "filename": "LA_E_6543651.flac"
+  },
+  {
+    "utterance_id": "LA_E_3454842",
+    "speaker_id": "LA_0034",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_3454842.flac",
+    "filename": "LA_E_3454842.flac"
+  },
+  {
+    "utterance_id": "LA_E_4534902",
+    "speaker_id": "LA_0018",
+    "label": 0,
+    "label_name": "Human (Bonafide)",
+    "file_path": "data\\audio\\bonafide\\LA_E_4534902.flac",
+    "filename": "LA_E_4534902.flac"
+  }
+]
