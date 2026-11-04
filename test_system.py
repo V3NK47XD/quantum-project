@@ -22,7 +22,7 @@ from src.visualization import (
 
 def test_audio_pipeline():
     print("Testing Audio & Feature Pipeline...")
-    demo_files = list(config.DEMO_DIR.glob("*.flac"))
+    demo_files = sorted([f for ext in ("*.flac", "*.mp3", "*.wav") for f in config.DEMO_DIR.glob(ext)])
     assert len(demo_files) > 0, "No demo audio files found in DEMO_DIR"
     test_audio = demo_files[0]
 
@@ -52,7 +52,7 @@ def test_audio_pipeline():
 
 def test_models():
     print("\nTesting All Three Models (CPU, GPU, Quantum VQC)...")
-    demo_audio = list(config.DEMO_DIR.glob("*.flac"))[0]
+    demo_audio = sorted([f for ext in ("*.flac", "*.mp3", "*.wav") for f in config.DEMO_DIR.glob(ext)])[0]
     feat_raw, _ = extract_features_with_cache(demo_audio)
     scaled_class, scaled_quant = preprocess_single_sample(feat_raw)
 
@@ -122,10 +122,47 @@ def test_visualizations_and_artifacts():
     assert (config.RESULTS_DIR / "test_predictions.csv").exists()
     print(" All CSV and JSON export files verified")
 
+def test_live_microphone_pipeline():
+    print("\nTesting Live Microphone Audio Stream & Latency Recording...")
+    import io
+    import soundfile as sf
+    # Create 16kHz WAV buffer simulating browser microphone recording
+    sr = config.SAMPLE_RATE
+    t = np.linspace(0, 1.5, int(sr * 1.5))
+    mock_voice = (0.4 * np.sin(2 * np.pi * 220 * t) + 0.2 * np.sin(2 * np.pi * 440 * t)).astype(np.float32)
+    buf = io.BytesIO()
+    sf.write(buf, mock_voice, sr, format="WAV")
+    mic_bytes = buf.getvalue()
+
+    y, loaded_sr = load_audio(mic_bytes, sr=config.SAMPLE_RATE, duration=config.DURATION)
+    assert len(y) == int(config.SAMPLE_RATE * config.DURATION)
+
+    feat_raw, _ = extract_features_with_cache(mic_bytes, use_cache=False)
+    assert feat_raw.shape == (config.TOTAL_FEATURE_DIM,)
+
+    scaled_class, scaled_quant = preprocess_single_sample(feat_raw)
+    assert scaled_class.shape == (1, 70)
+    assert scaled_quant.shape == (1, 4)
+
+    # Classical CPU timing
+    m_cpu = VoiceSpoofMLP(input_dim=config.TOTAL_FEATURE_DIM)
+    m_cpu.load_state_dict(torch.load(config.MODELS_DIR / "mlp_cpu.pt", map_location="cpu", weights_only=True))
+    res_c = predict_single_sample(m_cpu, scaled_class, device_name="cpu")
+    assert res_c["latency_ms"] > 0
+
+    # Quantum timing
+    q_clf = QuantumVoiceClassifier(num_qubits=config.N_QUBITS, feature_map_type=config.FEATURE_MAP_TYPE)
+    q_clf.load_weights(config.MODELS_DIR / "vqc_weights.npy")
+    res_q = q_clf.predict_single(scaled_quant)
+    assert res_q["latency_ms"] > 0
+
+    print(f" Live Stream: Classical={res_c['latency_ms']:.2f}ms, Quantum={res_q['latency_ms']:.2f}ms, Ratio={res_q['latency_ms']/res_c['latency_ms']:.1f}x")
+
 
 if __name__ == "__main__":
     test_audio_pipeline()
     test_models()
+    test_live_microphone_pipeline()
     test_visualizations_and_artifacts()
     print("\n" + "=" * 50)
     print(" ALL END-TO-END SMOKE TESTS PASSED SUCCESSFULLY! ")

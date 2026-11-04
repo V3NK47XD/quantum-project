@@ -34,11 +34,17 @@ N_CHROMA = 12
 # Total classical feature dimension = 70
 TOTAL_FEATURE_DIM = 70
 
-# Dataset Split
 TEST_SIZE = 0.20
 VAL_SIZE = 0.15
 RANDOM_STATE = 42
-TARGET_SUBSET_SIZE = 200  # Balanced subset (e.g. 100 bonafide + 100 spoof) for fast quantum training
+TARGET_SUBSET_SIZE = 600  # Multi-dataset total (300 bonafide + 300 spoof)
+
+# Multi-dataset Sources
+DATASET_SOURCES = {
+    "asvspoof": "ASVspoof 2019 LA",
+    "kaggle": "Kaggle Human & Non-human Voices",
+    "indian_accent": "CommonVoice Indian Accent",
+}
 
 # Quantum ML Parameters
 N_QUBITS = 4
@@ -46,10 +52,10 @@ PCA_COMPONENTS = 4
 FEATURE_MAP_TYPE = "ZZFeatureMap"  # or "AngleEmbedding"
 ANSATZ_REPS = 2
 QUANTUM_OPTIMIZER = "COBYLA"
-QUANTUM_MAX_ITER = 60
+QUANTUM_MAX_ITER = 40
+QUANTUM_TRAIN_SAMPLES = 200  # Balanced subset for VQC Aer simulation
 QUANTUM_SHOTS = 1024
 QUANTUM_SEED = 42
-
 # Classical ML Parameters
 CLASSICAL_EPOCHS = 40
 CLASSICAL_BATCH_SIZE = 16

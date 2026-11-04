@@ -44,20 +44,24 @@ def load_audio(
     elif isinstance(source, bytes):
         import io
         import soundfile as sf
-        y, orig_sr = sf.read(io.BytesIO(source))
+        try:
+            y, orig_sr = sf.read(io.BytesIO(source))
+        except Exception:
+            import tempfile
+            with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tf:
+                tf.write(source)
+                tmp_path = tf.name
+            try:
+                y, orig_sr = librosa.load(tmp_path, sr=sr, mono=True)
+            finally:
+                Path(tmp_path).unlink(missing_ok=True)
         if y.ndim > 1:
             y = np.mean(y, axis=1)
         if orig_sr != sr:
             y = librosa.resample(y, orig_sr=orig_sr, target_sr=sr)
     elif hasattr(source, "read"):
-        import io
-        import soundfile as sf
         source_bytes = source.read()
-        y, orig_sr = sf.read(io.BytesIO(source_bytes))
-        if y.ndim > 1:
-            y = np.mean(y, axis=1)
-        if orig_sr != sr:
-            y = librosa.resample(y, orig_sr=orig_sr, target_sr=sr)
+        return load_audio(source_bytes, sr=sr, duration=duration)
     elif isinstance(source, np.ndarray):
         y = source.astype(np.float32)
         if y.ndim > 1:

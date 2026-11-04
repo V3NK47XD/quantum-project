@@ -42,6 +42,7 @@ def run_training_and_evaluation() -> Dict[str, Any]:
     print("\n--- 2. Dataset Splitting & Preprocessing Pipeline ---")
     data = prepare_dataset_pipeline(
         X, y,
+        meta=meta,
         test_size=config.TEST_SIZE,
         random_state=config.RANDOM_STATE,
         n_pca_components=config.PCA_COMPONENTS,
@@ -59,8 +60,11 @@ def run_training_and_evaluation() -> Dict[str, Any]:
     print(f"Quantum feature shape (PCA-4): {X_train_quantum.shape}")
 
     benchmark_records = []
-    test_predictions_dict = {"true_label": y_test.tolist()}
-
+    test_predictions_dict = {
+        "filename": [m["filename"] for m in data["meta_test"]] if data.get("meta_test") else [],
+        "dataset_source": [m["dataset_source"] for m in data["meta_test"]] if data.get("meta_test") else [],
+        "true_label": y_test.tolist(),
+    }
     # 3. Train Classical MLP on CPU
     print("\n--- 3. Classical MLP (CPU) ---")
     if TORCH_AVAILABLE:
@@ -140,8 +144,19 @@ def run_training_and_evaluation() -> Dict[str, Any]:
         shots=config.QUANTUM_SHOTS,
         seed=config.QUANTUM_SEED,
     )
+    # Stratified balanced subset for Quantum VQC training to preserve execution efficiency
+    if len(y_train) > config.QUANTUM_TRAIN_SAMPLES:
+        from sklearn.model_selection import StratifiedShuffleSplit
+        sss = StratifiedShuffleSplit(n_splits=1, train_size=config.QUANTUM_TRAIN_SAMPLES, random_state=config.QUANTUM_SEED)
+        sub_train_idx, _ = next(sss.split(X_train_quantum, y_train))
+        X_train_q_fit = X_train_quantum[sub_train_idx]
+        y_train_q_fit = y_train[sub_train_idx]
+        print(f"Quantum VQC training subset: {len(y_train_q_fit)} samples (Bonafide: {np.sum(y_train_q_fit == 0)}, Spoof: {np.sum(y_train_q_fit == 1)})")
+    else:
+        X_train_q_fit = X_train_quantum
+        y_train_q_fit = y_train
 
-    q_classifier.fit(X_train_quantum, y_train)
+    q_classifier.fit(X_train_q_fit, y_train_q_fit)
     q_classifier.save_weights(vqc_save_path)
 
     # Evaluate Quantum model on held-out test set

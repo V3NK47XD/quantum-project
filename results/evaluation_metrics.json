@@ -1,151 +1,101 @@
 [
   {
     "model_name": "PyTorch MLP (CPU)",
-    "accuracy": 0.875,
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1_score": 0.8571428571428571,
-    "training_time_sec": 0.7078787999998895,
-    "inference_latency_ms": 0.11652600000161328,
+    "accuracy": 0.8166666666666667,
+    "precision": 0.8392857142857143,
+    "recall": 0.7833333333333333,
+    "f1_score": 0.8103448275862069,
+    "training_time_sec": 4.614137299999129,
+    "inference_latency_ms": 0.30428700003540143,
     "confusion_matrix": [
       [
-        20,
-        0
+        51,
+        9
       ],
       [
-        5,
-        15
+        13,
+        47
       ]
     ],
-    "true_negatives": 20,
-    "false_positives": 0,
-    "false_negatives": 5,
-    "true_positives": 15,
+    "true_negatives": 51,
+    "false_positives": 9,
+    "false_negatives": 13,
+    "true_positives": 47,
     "classification_report": {
       "Human (Bonafide)": {
-        "precision": 0.8,
-        "recall": 1.0,
-        "f1-score": 0.8888888888888888,
-        "support": 20.0
+        "precision": 0.796875,
+        "recall": 0.85,
+        "f1-score": 0.8225806451612904,
+        "support": 60.0
       },
       "AI-Generated (Spoof)": {
-        "precision": 1.0,
-        "recall": 0.75,
-        "f1-score": 0.8571428571428571,
-        "support": 20.0
+        "precision": 0.8392857142857143,
+        "recall": 0.7833333333333333,
+        "f1-score": 0.8103448275862069,
+        "support": 60.0
       },
-      "accuracy": 0.875,
+      "accuracy": 0.8166666666666667,
       "macro avg": {
-        "precision": 0.9,
-        "recall": 0.875,
-        "f1-score": 0.873015873015873,
-        "support": 40.0
+        "precision": 0.8180803571428572,
+        "recall": 0.8166666666666667,
+        "f1-score": 0.8164627363737487,
+        "support": 120.0
       },
       "weighted avg": {
-        "precision": 0.9,
-        "recall": 0.875,
-        "f1-score": 0.8730158730158731,
-        "support": 40.0
-      }
-    }
-  },
-  {
-    "model_name": "PyTorch MLP (GPU: NVIDIA GeForce RTX 2050)",
-    "accuracy": 0.825,
-    "precision": 0.8823529411764706,
-    "recall": 0.75,
-    "f1_score": 0.8108108108108109,
-    "training_time_sec": 1.280437499999607,
-    "inference_latency_ms": 0.32801999999719555,
-    "confusion_matrix": [
-      [
-        18,
-        2
-      ],
-      [
-        5,
-        15
-      ]
-    ],
-    "true_negatives": 18,
-    "false_positives": 2,
-    "false_negatives": 5,
-    "true_positives": 15,
-    "classification_report": {
-      "Human (Bonafide)": {
-        "precision": 0.782608695652174,
-        "recall": 0.9,
-        "f1-score": 0.8372093023255814,
-        "support": 20.0
-      },
-      "AI-Generated (Spoof)": {
-        "precision": 0.8823529411764706,
-        "recall": 0.75,
-        "f1-score": 0.8108108108108109,
-        "support": 20.0
-      },
-      "accuracy": 0.825,
-      "macro avg": {
-        "precision": 0.8324808184143222,
-        "recall": 0.825,
-        "f1-score": 0.8240100565681961,
-        "support": 40.0
-      },
-      "weighted avg": {
-        "precision": 0.8324808184143222,
-        "recall": 0.825,
-        "f1-score": 0.8240100565681961,
-        "support": 40.0
+        "precision": 0.8180803571428572,
+        "recall": 0.8166666666666667,
+        "f1-score": 0.8164627363737487,
+        "support": 120.0
       }
     }
   },
   {
     "model_name": "Qiskit VQC (Aer Simulator)",
-    "accuracy": 0.475,
-    "precision": 0.48,
-    "recall": 0.6,
-    "f1_score": 0.5333333333333333,
-    "training_time_sec": 33.40453040000102,
-    "inference_latency_ms": 7.891794999977719,
+    "accuracy": 0.5583333333333333,
+    "precision": 0.5714285714285714,
+    "recall": 0.4666666666666667,
+    "f1_score": 0.5137614678899083,
+    "training_time_sec": 67.32551260000037,
+    "inference_latency_ms": 17.02982000000096,
     "confusion_matrix": [
       [
-        7,
-        13
+        39,
+        21
       ],
       [
-        8,
-        12
+        32,
+        28
       ]
     ],
-    "true_negatives": 7,
-    "false_positives": 13,
-    "false_negatives": 8,
-    "true_positives": 12,
+    "true_negatives": 39,
+    "false_positives": 21,
+    "false_negatives": 32,
+    "true_positives": 28,
     "classification_report": {
       "Human (Bonafide)": {
-        "precision": 0.4666666666666667,
-        "recall": 0.35,
-        "f1-score": 0.4,
-        "support": 20.0
+        "precision": 0.5492957746478874,
+        "recall": 0.65,
+        "f1-score": 0.5954198473282443,
+        "support": 60.0
       },
       "AI-Generated (Spoof)": {
-        "precision": 0.48,
-        "recall": 0.6,
-        "f1-score": 0.5333333333333333,
-        "support": 20.0
+        "precision": 0.5714285714285714,
+        "recall": 0.4666666666666667,
+        "f1-score": 0.5137614678899083,
+        "support": 60.0
       },
-      "accuracy": 0.475,
+      "accuracy": 0.5583333333333333,
       "macro avg": {
-        "precision": 0.47333333333333333,
-        "recall": 0.475,
-        "f1-score": 0.4666666666666667,
-        "support": 40.0
+        "precision": 0.5603621730382293,
+        "recall": 0.5583333333333333,
+        "f1-score": 0.5545906576090762,
+        "support": 120.0
       },
       "weighted avg": {
-        "precision": 0.47333333333333333,
-        "recall": 0.475,
-        "f1-score": 0.4666666666666666,
-        "support": 40.0
+        "precision": 0.5603621730382293,
+        "recall": 0.5583333333333333,
+        "f1-score": 0.5545906576090762,
+        "support": 120.0
       }
     }
   }

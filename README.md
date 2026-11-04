@@ -6,20 +6,25 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-CUDA%2012.4%20%7C%20CPU-red.svg)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.66-orange.svg)](https://streamlit.io/)
 
-A complete quantum-classical hybrid machine learning system for audio forensics, specifically designed to distinguish **Human Speech (*Bonafide*)** from **AI-Generated Speech (*Spoof*)** using the **ASVspoof 2019 Logical Access (LA)** benchmark.
+A complete quantum-classical hybrid machine learning system for audio forensics, specifically designed to distinguish **Human Speech (*Bonafide*)** from **AI-Generated Speech (*Spoof*)** across a diverse multi-dataset benchmark:
+1. **ASVspoof 2019 Logical Access (LA)** benchmark
+2. **Kaggle Human & Non-Human Voices** dataset (`aabdurazzoq/human-and-nonhuman-voices`)
+3. **CommonVoice Indian Accent** dataset (`ishands/commonvoice-indian_accent`)
 
-This project implements, evaluates, and directly compares three paradigms:
+This project implements, evaluates, and directly compares paradigms:
 1. **Classical Deep Learning on CPU:** Lightweight PyTorch MLP
-2. **Classical Deep Learning on NVIDIA CUDA GPU:** PyTorch MLP accelerated on RTX 2050
+2. **Classical Deep Learning on NVIDIA CUDA GPU:** PyTorch MLP (CUDA-enabled)
 3. **Quantum Machine Learning:** Genuine Variational Quantum Classifier (VQC) with rotation feature mapping, CNOT entanglement, and Qiskit Aer quantum simulation.
-
 ---
 
 ## 🌟 Key Highlights & Engineering Features
 
 - **Genuine Quantum Classifier (VQC):** Uses Qiskit, Qiskit Aer, and Qiskit Machine Learning to encode 4-dimensional acoustic PCA projections into 4 qubits ($|\psi\rangle \in \mathbb{C}^{16}$), applying parameterized $R_y$ rotation gates and CNOT entangling ladders trained via classical COBYLA optimization.
-- **ASVspoof 2019 LA Dataset:** Balanced, authenticated subset with 100 genuine human speech recordings and 100 state-of-the-art synthetic speech/voice conversion recordings from Hugging Face: [`SpeechAntiSpoofingBenchmarks/ASVspoof2019_LA`](https://huggingface.co/datasets/SpeechAntiSpoofingBenchmarks/ASVspoof2019_LA).
-- **70 Acoustic Features via Librosa:** 40 MFCCs (mean & standard deviation), 2 Spectral Centroid, 2 Spectral Bandwidth, 2 Zero-Crossing Rate, and 24 Chroma STFT coefficients.
+- **Multi-Dataset Benchmark (600 Balanced Audio Files):**
+  - **ASVspoof 2019 LA:** 100 genuine human speech recordings and 100 synthetic speech/voice conversion recordings from Hugging Face (`SpeechAntiSpoofingBenchmarks/ASVspoof2019_LA`).
+  - **Kaggle Human & Non-human Voices:** 100 human voice recordings and 200 AI-generated / non-human voice recordings (`aabdurazzoq/human-and-nonhuman-voices`).
+  - **CommonVoice Indian Accent:** 100 Indian accent human voice recordings (`ishands/commonvoice-indian_accent`).
+  - **Total:** 300 Human (Bonafide) and 300 AI-Generated (Spoof), exactly 50.0% / 50.0% balanced.
 - **Zero Train-Test Leakage:** `StandardScaler` and `PCA(n_components=4)` are strictly fitted on the training split $\mathcal{D}_{\text{train}}$ only and frozen for evaluation and real-time inference.
 - **Transparent Disk Caching:** Audio feature vectors are cached using SHA-256 content hashes, enabling sub-millisecond retrieval.
 - **Interactive Streamlit Web Dashboard:**
@@ -101,12 +106,11 @@ pip install -r requirements.txt
 ```
 *(Dependencies: `streamlit`, `qiskit`, `qiskit-aer`, `qiskit-machine-learning`, `qiskit-algorithms`, `torch`, `librosa`, `soundfile`, `scikit-learn`, `pandas`, `matplotlib`, `pyarrow`, `pylatexenc`)*
 
-### 2. Download Dataset & Extract Features
-To download the balanced ASVspoof 2019 LA partition and extract features:
+### 2. Ingest Multi-Dataset Benchmark
+To ingest, balance, and build the unified catalog across ASVspoof, Kaggle, and CommonVoice Indian Accent:
 ```bash
-python data/download_asvspoof.py
+python data/ingest_multi_dataset.py
 ```
-
 ### 3. Run Training & Benchmarking Pipeline
 Train all three models (Classical CPU, Classical CUDA GPU, and Quantum VQC) and evaluate on the identical held-out test set:
 ```bash
@@ -122,19 +126,20 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 📊 Summary Comparison: Classical vs Quantum
+## 📊 Summary Comparison: Classical vs Quantum (Multi-Dataset Benchmark)
 
-| Dimension | Classical PyTorch MLP (CPU) | Classical PyTorch MLP (GPU) | Qiskit VQC (Aer Simulator) |
-| :--- | :---: | :---: | :---: |
-| **Accuracy** | **87.50%** | **82.50%** | **47.50%** |
-| **F1-Score** | **0.8571** | **0.8108** | **0.5333** |
-| **Input Dimension** | 70 acoustic features | 70 acoustic features | 4 PCA components |
-| **Model Size** | 6,818 parameters | 6,818 parameters | **12 variational angles** |
-| **Training Speed** | **0.71 s** | **1.28 s** | **33.40 s** |
-| **Inference Latency** | **0.12 ms / sample** | **0.33 ms / sample** | **7.89 ms / sample** |
-| **Hardware / Simulator** | Intel/AMD CPU | NVIDIA RTX 2050 CUDA | Qiskit Aer Statevector/Sampler |
-| **Theoretical Space** | $\mathbb{R}^{70}$ | $\mathbb{R}^{70}$ | Hilbert Space $\mathcal{H} = \mathbb{C}^{16}$ |
-
+| Dimension | Classical PyTorch MLP (CPU) | Qiskit VQC (Aer Simulator) |
+| :--- | :---: | :---: |
+| **Accuracy** | **81.67%** | **55.83%** |
+| **F1-Score** | **0.8103** | **0.5138** |
+| **Precision** | **83.93%** | **57.14%** |
+| **Recall** | **78.33%** | **46.67%** |
+| **Input Dimension** | 70 acoustic features | 4 PCA components |
+| **Model Size** | 6,818 parameters | **12 variational angles** |
+| **Training Speed** | **4.61 s** | **67.33 s** |
+| **Inference Latency** | **0.30 ms / sample** | **17.03 ms / sample** |
+| **Hardware / Simulator** | CPU | Qiskit Aer Statevector/Sampler |
+| **Theoretical Space** | $\mathbb{R}^{70}$ | Hilbert Space $\mathcal{H} = \mathbb{C}^{16}$ |
 ---
 
 ## ⚖️ Scientific Integrity & Quantum Advantage Reality
