@@ -941,18 +941,20 @@ def main():
         st.subheader("Export Benchmark Results & Research Methodology")
 
         # Publications & Reports Download Cards
-        col_doc1, col_doc2 = st.columns(2)
+        # Publications, Reports & Presentation Download Cards
+        col_doc1, col_doc2, col_doc3 = st.columns(3)
         pdf_paper_path = config.BASE_DIR / "Quantum_Voice_Classification_Research_Paper.pdf"
         pdf_report_path = config.BASE_DIR / "Quantum_Voice_Classification_Project_Report.pdf"
+        pptx_path = config.BASE_DIR / "Quantum_Voice_Classification_Presentation.pptx"
 
         with col_doc1:
             with st.container(border=True):
-                st.markdown("#### IEEE / Springer Research Paper (PDF)")
-                st.write("Full publication-grade paper with mathematical formulation, circuit diagrams, and benchmark analysis.")
+                st.markdown("#### IEEE / Springer Paper (PDF)")
+                st.write("Full publication-grade paper with mathematical formulation and benchmark analysis.")
                 if pdf_paper_path.exists():
                     with open(pdf_paper_path, "rb") as f_pdf:
                         st.download_button(
-                            "Download Research Paper (PDF)",
+                            "Download Paper (PDF)",
                             data=f_pdf.read(),
                             file_name="Quantum_Voice_Classification_Research_Paper.pdf",
                             mime="application/pdf",
@@ -960,24 +962,39 @@ def main():
                             use_container_width=True,
                         )
                 else:
-                    st.caption("Research Paper PDF not generated yet.")
+                    st.caption("Research Paper PDF not found.")
 
         with col_doc2:
             with st.container(border=True):
-                st.markdown("#### Comprehensive Project Report (PDF)")
-                st.write("Complete institutional project report covering architectural design, multi-dataset pipeline, and hardware profiling.")
+                st.markdown("#### Project Report (PDF)")
+                st.write("Complete institutional project report covering architectural design and hardware profiling.")
                 if pdf_report_path.exists():
                     with open(pdf_report_path, "rb") as f_rep:
                         st.download_button(
-                            "Download Project Report (PDF)",
+                            "Download Report (PDF)",
                             data=f_rep.read(),
                             file_name="Quantum_Voice_Classification_Project_Report.pdf",
                             mime="application/pdf",
                             use_container_width=True,
                         )
                 else:
-                    st.caption("Project Report PDF not generated yet.")
+                    st.caption("Project Report PDF not found.")
 
+        with col_doc3:
+            with st.container(border=True):
+                st.markdown("#### Defense Presentation (PPTX)")
+                st.write("13-slide academic presentation with training graphs by Venkat Prashad A & Vinoth S.")
+                if pptx_path.exists():
+                    with open(pptx_path, "rb") as f_ppt:
+                        st.download_button(
+                            "Download Presentation (PPTX)",
+                            data=f_ppt.read(),
+                            file_name="Quantum_Voice_Classification_Presentation.pptx",
+                            mime="application/vnd.openxmlformats-officedocument.presentationml.presentation",
+                            use_container_width=True,
+                        )
+                else:
+                    st.caption("Presentation PPTX not found.")
         # Data Export Buttons
         with st.container(border=True):
             st.markdown("#### Empirical Benchmark Datasets & Artifacts")
